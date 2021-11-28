@@ -1,0 +1,120 @@
+/* .main{
+   background-color: rgb(199, 199, 199);
+  height: 60px;
+  padding: 1.5em 50em 0 1.5em;
+  float: left;
+  color: #ffffff;
+  
+ font-style: italic;
+ 
+  font-size: 17px;
+  clear: both;
+}
+.below{
+   display:inline;
+   float: right ;
+   position: relative;
+   left: 45em;
+ 
+   
+}
+.faisal{
+
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ background-color: rgb(71, 195, 236);
+margin-left: -55em;
+margin-top: 1em;
+position: fixed;
+Top:5em
+  
+ 
+  
+  
+}*/
+  .main{
+     
+      display: flex;
+      flex-direction: row;
+      margin: 2em 2em 2em 2em;
+      padding: 1em 1em 1em 1em;
+      background-color: cornflowerblue;
+     
+
+  }
+  .u{
+    display: flex;
+   
+    justify-content: end;
+    flex-wrap: nowrap;
+    
+    
+  }
+ 
+ @media only screen and (max-width:1200px){
+     .aali img{
+         width: 1000px;
+     }
+ }
+ @media only screen and (max-width:1000px){
+    .aali img{
+        width: 800px;
+    }
+}
+@media only screen and (max-width:800px){
+    .aali img{
+        width: 400px !important;
+    }
+}
+
+.man{
+    background-color: seashell;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQsXk5VE17VeZ-Xew_dtrN4vxtpi_o7SVSvQ&usqp=CAU);
+}
+.int{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* .aali img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  } */
